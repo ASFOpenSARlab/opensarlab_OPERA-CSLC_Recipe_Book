@@ -1,9 +1,18 @@
 # Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
 
-format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+format: jb-book
+parts:
+  - caption: Introduction
+    chapters:
+      - file: intro/opera_cslc_intro.md
+  - caption: Software Environments
+    chapters:
+      - file: software_environments/dolphin_env.ipynb
+  - caption: Data Access
+    chapters:
+      - file: data_access/search_download_OPERA-CSLC-S1
+  - caption: Interferogram Generation
+    chapters:
+      - file: insar_generation/Minimal_Example_ASF_OPERA_CSLC_2_IFG.ipynb
