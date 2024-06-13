@@ -6,6 +6,7 @@ dependencies:
   - gdal
   - ipyfilechooser
   - ipywidgets
+  - ipympl
   - jupyterlab
   - matplotlib-base
   - opensarlab_lib
