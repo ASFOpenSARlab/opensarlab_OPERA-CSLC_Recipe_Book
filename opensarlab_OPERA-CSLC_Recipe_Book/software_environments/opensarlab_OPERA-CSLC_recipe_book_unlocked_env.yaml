@@ -1,0 +1,19 @@
+name: osl_opera_cslc_jbook_env
+channels:
+  - conda-forge
+dependencies:
+  - asf_search>=6.7.2
+  - gdal
+  - ipyfilechooser
+  - ipywidgets
+  - ipympl
+  - jupyterlab
+  - matplotlib-base
+  - opensarlab_lib
+  - rasterio
+  - shapely
+  - h5py
+  - scipy
+  - pip
+  - pip:
+    - url_widget
