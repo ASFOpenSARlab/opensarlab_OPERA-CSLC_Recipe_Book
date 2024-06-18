@@ -1,0 +1,9 @@
+# Introduction to OPERA CSLC-S1
+
+**The Observational Products for End-Users from Remote Sensing Analysis (OPERA) project at the Jet Propulsion Laboratory produces analysis-ready datasets from space-borne synthetic aperture radar (SAR) and optical sensors.**
+
+This Jupyter Book provides data recipes demonstrating data access, analyses, and data transformations using the OPERA CSLC-S1 product.
+
+>"The Coregistered Single-look Complex (CSLC) product consists of SLC images that are precisely aligned or “coregistered” to a pre-defined UTM/Polar stereographic map projection systems. The CSLC images contain both amplitude and phase information of the complex radar return. The amplitude is primarily determined by ground surface properties (e.g., terrain slope, surface roughness, and physical properties), and phase primarily represents the distance between the radar and ground targets corrected for the geometrical distance between the two based on the knowledge from Digital Elevation Model and platform’s position, i.e., the CSLC phase represents residual geometrical distance between the sensor and target, the atmospheric propagation delay and the target movements. The Level-2 CSLC product is derived from the Sentinel-1 radar observations and is provided in the Hierarchical Data Format version 5 (HDF5) file format. The CSLC product will be posted at 5x10 m spacing in east and north direction, respectively. The CSLC product also serves as the basis for the OPERA Displacement (DISP) product. The product will be accessible through the Alaska Satellite Facility Distributed Active Archive Center (ASF DAAC)."
+>
+>[https://www.jpl.nasa.gov/go/opera/products/cslc-product-suite](cslc-product-suite)
