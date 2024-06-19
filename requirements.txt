@@ -1,3 +1,6 @@
+ipywidgets
+jupyterlab
 jupyter-book
-matplotlib
-numpy
+mamba
+nb_conda_kernels
+notebook
