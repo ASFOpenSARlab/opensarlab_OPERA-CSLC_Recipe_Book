@@ -3,17 +3,17 @@ format: jb-book
 parts:
   - caption: Introduction
     chapters:
-      - file: intro/opera_cslc_intro.md
+      - file: README.md
   - caption: Software Environments
     chapters:
-      - file: software_environments/OPERA_CSLC_jupyter_book_env.ipynb
+      - file: OPERA_CSLC_jupyter_book_env.ipynb
   - caption: Data Access
     chapters:
-      - file: data_access/search_download_OPERA-CSLC-S1.ipynb
-      - file: data_access/OPERA_S3_Access.ipynb
+      - file: search_download_OPERA-CSLC-S1.ipynb
+      - file: OPERA_S3_Access.ipynb
   - caption: Interferogram Generation
     chapters:
-      - file: insar_generation/ASF_OPERA_CSLC_2_IFG.ipynb
+      - file: ASF_OPERA_CSLC_2_IFG.ipynb
   - caption: Resources
     chapters:
     - url: https://www.jpl.nasa.gov/go/opera
