@@ -1,7 +1,6 @@
 name: osl_opera_cslc_jbook_env
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=2_gnu
@@ -10,8 +9,8 @@ dependencies:
   - argon2-cffi=23.1.0=pyhd8ed1ab_0
   - argon2-cffi-bindings=21.2.0=py312h98912ed_4
   - arrow=1.3.0=pyhd8ed1ab_0
-  - asf_search=7.1.2=pyhd8ed1ab_0
-  - asf_search-base=7.1.2=pyhd8ed1ab_0
+  - asf_search=7.1.3=pyhd8ed1ab_0
+  - asf_search-base=7.1.3=pyhd8ed1ab_0
   - asttokens=2.4.1=pyhd8ed1ab_0
   - async-lru=2.0.4=pyhd8ed1ab_0
   - attrs=23.2.0=pyh71513ae_0
@@ -36,6 +35,8 @@ dependencies:
   - beautifulsoup4=4.12.3=pyha770c72_0
   - bleach=6.1.0=pyhd8ed1ab_0
   - blosc=1.21.5=hc2324a3_1
+  - boto3=1.34.128=pyhd8ed1ab_0
+  - botocore=1.34.129=pyge310_1234567_0
   - brotli=1.1.0=hd590300_1
   - brotli-bin=1.1.0=hd590300_1
   - brotli-python=1.1.0=py312h30efb56_1
@@ -78,12 +79,14 @@ dependencies:
   - fqdn=1.5.1=pyhd8ed1ab_0
   - freetype=2.12.1=h267a509_2
   - freexl=2.0.0=h743c826_0
+  - fsspec=2024.6.0=pyhff2d567_0
   - gdal=3.9.0=py312h86af8fa_7
   - geos=3.12.1=h59595ed_0
   - geotiff=1.7.3=hf7fa9e8_1
   - giflib=5.2.2=hd590300_0
   - h11=0.14.0=pyhd8ed1ab_0
   - h2=4.1.0=pyhd8ed1ab_0
+  - h5netcdf=1.3.0=pyhd8ed1ab_0
   - h5py=3.11.0=nompi_py312hb7ab980_102
   - hdf4=4.2.15=h2a13503_7
   - hdf5=1.14.3=nompi_hdf9ad27_105
@@ -106,6 +109,7 @@ dependencies:
   - isoduration=20.11.0=pyhd8ed1ab_0
   - jedi=0.19.1=pyhd8ed1ab_0
   - jinja2=3.1.4=pyhd8ed1ab_0
+  - jmespath=1.0.1=pyhd8ed1ab_0
   - json-c=0.17=h7ab15ed_0
   - json5=0.9.25=pyhd8ed1ab_0
   - jsonpointer=3.0.0=py312h7900ff3_0
@@ -127,7 +131,7 @@ dependencies:
   - kiwisolver=1.4.5=py312h8572e83_1
   - krb5=1.21.2=h659d440_0
   - lcms2=2.16=hb7c19ff_0
-  - ld_impl_linux-64=2.40=hf3520f5_3
+  - ld_impl_linux-64=2.40=hf3520f5_7
   - lerc=4.0.0=h27087fc_0
   - libabseil=20240116.2=cxx17_h59595ed_0
   - libaec=1.1.3=h59595ed_0
@@ -145,12 +149,12 @@ dependencies:
   - libev=4.33=hd590300_2
   - libexpat=2.6.2=h59595ed_0
   - libffi=3.4.2=h7f98852_5
-  - libgcc-ng=13.2.0=h77fa898_9
+  - libgcc-ng=13.2.0=h77fa898_10
   - libgdal=3.9.0=h471f4ab_7
-  - libgfortran-ng=13.2.0=h69a702a_9
-  - libgfortran5=13.2.0=h3d2ce59_9
+  - libgfortran-ng=13.2.0=h69a702a_10
+  - libgfortran5=13.2.0=h3d2ce59_10
   - libglib=2.80.2=hf974151_0
-  - libgomp=13.2.0=h77fa898_9
+  - libgomp=13.2.0=h77fa898_10
   - libgoogle-cloud=2.25.0=h2736e30_0
   - libgoogle-cloud-storage=2.25.0=h3d9a0c8_0
   - libgrpc=1.62.2=h15f2491_0
@@ -171,7 +175,7 @@ dependencies:
   - libspatialite=5.1.0=h6fbd9c4_7
   - libsqlite=3.46.0=hde9e2c9_0
   - libssh2=1.11.0=h0841786_0
-  - libstdcxx-ng=13.2.0=hc0a3c3a_9
+  - libstdcxx-ng=13.2.0=hc0a3c3a_10
   - libtiff=4.6.0=h1dd3fc0_3
   - libuuid=2.38.1=h0b41bf4_0
   - libwebp-base=1.4.0=hd590300_0
@@ -185,7 +189,7 @@ dependencies:
   - markupsafe=2.1.5=py312h98912ed_0
   - matplotlib-base=3.8.4=py312h20ab3a6_2
   - matplotlib-inline=0.1.7=pyhd8ed1ab_0
-  - minizip=4.0.6=h9d307f2_0
+  - minizip=4.0.7=h401b404_0
   - mistune=3.0.2=pyhd8ed1ab_0
   - munkres=1.1.4=pyh9f0ad1d_0
   - nbclient=0.10.0=pyhd8ed1ab_0
@@ -195,8 +199,8 @@ dependencies:
   - nest-asyncio=1.6.0=pyhd8ed1ab_0
   - notebook-shim=0.2.4=pyhd8ed1ab_0
   - nspr=4.35=h27087fc_0
-  - nss=3.100=hca3bf56_0
-  - numpy=1.26.4=py312heda63a1_0
+  - nss=3.101=h593d115_0
+  - numpy=2.0.0=py312h22e1c76_0
   - openjpeg=2.5.2=h488ebb8_0
   - opensarlab_lib=0.0.9=pyhd8ed1ab_0
   - openssl=3.3.1=h4ab18f5_0
@@ -229,9 +233,9 @@ dependencies:
   - pyproj=3.6.1=py312h5d05ceb_7
   - pyshp=2.3.1=pyhd8ed1ab_0
   - pysocks=1.7.1=pyha2e5f31_6
-  - python=3.12.3=hab00c5b_0_cpython
+  - python=3.12.4=h194c7f8_0_cpython
   - python-dateutil=2.9.0=pyhd8ed1ab_0
-  - python-fastjsonschema=2.19.1=pyhd8ed1ab_0
+  - python-fastjsonschema=2.20.0=pyhd8ed1ab_0
   - python-json-logger=2.0.7=pyhd8ed1ab_0
   - python-tzdata=2024.1=pyhd8ed1ab_0
   - python_abi=3.12=4_cp312
@@ -247,8 +251,11 @@ dependencies:
   - requests=2.32.3=pyhd8ed1ab_0
   - rfc3339-validator=0.1.4=pyhd8ed1ab_0
   - rfc3986-validator=0.1.1=pyh9f0ad1d_0
+  - rioxarray=0.15.5=pyhd8ed1ab_0
   - rpds-py=0.18.1=py312h4413252_0
   - s2n=1.4.16=he19d79f_0
+  - s3fs=0.4.2=py_0
+  - s3transfer=0.10.1=pyhd8ed1ab_0
   - scipy=1.13.1=py312hc2bc53b_0
   - send2trash=1.8.3=pyh0d859eb_0
   - setuptools=70.0.0=pyhd8ed1ab_0
@@ -279,13 +286,14 @@ dependencies:
   - tzlocal=5.2=py312h7900ff3_0
   - uri-template=1.3.0=pyhd8ed1ab_0
   - uriparser=0.9.8=hac33072_0
-  - urllib3=2.2.1=pyhd8ed1ab_0
+  - urllib3=2.2.2=pyhd8ed1ab_0
   - wcwidth=0.2.13=pyhd8ed1ab_0
   - webcolors=24.6.0=pyhd8ed1ab_0
   - webencodings=0.5.1=pyhd8ed1ab_2
   - websocket-client=1.8.0=pyhd8ed1ab_0
   - wheel=0.43.0=pyhd8ed1ab_1
   - widgetsnbextension=4.0.11=pyhd8ed1ab_0
+  - xarray=2024.6.0=pyhd8ed1ab_1
   - xerces-c=3.2.5=hac6953d_0
   - xorg-kbproto=1.0.7=h7f98852_1002
   - xorg-libice=1.1.1=hd590300_0

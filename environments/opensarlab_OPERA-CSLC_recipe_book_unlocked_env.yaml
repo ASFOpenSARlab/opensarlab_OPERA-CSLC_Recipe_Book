@@ -3,17 +3,21 @@ channels:
   - conda-forge
 dependencies:
   - asf_search>=6.7.2
+  - boto3
   - gdal
+  - h5netcdf
+  - h5py
   - ipyfilechooser
-  - ipywidgets
   - ipympl
+  - ipywidgets
   - jupyterlab
   - matplotlib-base
   - opensarlab_lib
   - rasterio
-  - shapely
-  - h5py
+  - rioxarray
+  - s3fs
   - scipy
+  - shapely
   - pip
   - pip:
     - url_widget
