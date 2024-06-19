@@ -21,7 +21,7 @@ This Jupyter Book provides data recipes demonstrating data access, analyses, and
 <div class="alert alert-success" style="display: flex; align-items: center; font-family: 'Times New Roman', Times, serif; background-color: 'rgba(200,0,0,0.2)'">
   <div style="width: 95%;">
     <h2><b>Important Note About Your Jupyter Environment if not in OpenSARLab</b></h2>
-    <b><i>Tip: run the notebooks in this Jupyter Book from Jupyter Lab, launched from a conda environment containing the required Jupyter packages. 
+    <b><i>Tip: Run the notebooks in this Jupyter Book from Jupyter Lab, launched from a conda environment containing the required Jupyter packages. 
         <br/>
         This can be accomplished with the following commands:</i></b>
     <pre style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; border: 1px solid #ccc; overflow: auto;">
