@@ -25,7 +25,7 @@ This Jupyter Book provides data recipes demonstrating data access, analyses, and
         <br/>
         This can be accomplished with the following commands:</i></b>
     <pre style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; border: 1px solid #ccc; overflow: auto;">
-      <code>mamba create -n jbook -c conda-forge jupyterlab notebook ipywidgets nb_conda_kernels</code>
+      <code>mamba create -n jbook -c conda-forge jupyterlab notebook ipywidgets ipympl nb_conda_kernels</code>
       <code>mamba activate jbook</code>
       <code>python -m pip install jupyterlab-jupyterbook-navigation</code>
       <code>jupyter lab</code>
@@ -33,6 +33,7 @@ This Jupyter Book provides data recipes demonstrating data access, analyses, and
     <ul>
         <li>Jupyter selection widgets used in the notebooks require the packages <code>ipywidgets</code> and <code>notebook</code>.</li>
         <li>In order to use multiple conda environments in Jupyter Lab at the same time, you must install <code>nb_conda_kernels</code>.</li>
+        <li>Interactive matplotlib plots requires the package <code>ipympl</code> in the environment running Jupyter Lab</li>
     </ul>
   </div>
 </div>
