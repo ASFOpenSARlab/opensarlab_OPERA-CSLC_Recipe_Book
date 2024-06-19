@@ -17,14 +17,25 @@ This Jupyter Book provides data recipes demonstrating data access, analyses, and
 >[https://www.jpl.nasa.gov/go/opera/products/cslc-product-suite](cslc-product-suite)
 
 <br>
-<div class="alert alert-success">
-<font face="Calibri" size="5"><b><font color='rgba(200,0,0,0.2)'> <u>Jupyter Book Navigation</u></font></b></font>
 
-<font face="Calibri" size="3">For an improved Jupyter Book Experience in JupyterLab, try installing the [jupyterlab-jupyterbook-navigation](https://pypi.org/project/jupyterlab-jupyterbook-navigation/) JupyterLab extension.
-</font>
+<div class="alert alert-success" style="display: flex; align-items: center; font-family: 'Times New Roman', Times, serif; background-color: 'rgba(200,0,0,0.2)'">
+  <div style="width: 95%;">
+    <h2><b>Important Note About Your Jupyter Environment if not in OpenSARLab</b></h2>
+    <b><i>Tip: run the notebooks in this Jupyter Book from Jupyter Lab, launched from a conda environment containing the required Jupyter packages. 
+        <br/>
+        This can be accomplished with the following commands:</i></b>
+    <pre style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; border: 1px solid #ccc; overflow: auto;">
+      <code>mamba create -n jbook -c conda-forge jupyterlab notebook ipywidgets nb_conda_kernels</code>
+      <code>mamba activate jbook</code>
+      <code>python -m pip install jupyterlab-jupyterbook-navigation</code>
+      <code>jupyter lab</code>
+    </pre>
+    <ul>
+        <li>Jupyter selection widgets used in the notebooks require the packages <code>ipywidgets</code> and <code>notebook</code>.</li>
+        <li>In order to use multiple conda environments in Jupyter Lab at the same time, you must install <code>nb_conda_kernels</code>.</li>
+    </ul>
+  </div>
 </div>
-
-<img src="https://opensarlab-docs.asf.alaska.edu/opensarlab-notebook-assets/notebook_images/jlab_toc.gif" alt="jupyterlab-jupyterbook-navigation demo gif]" width="75%"/>
 
 ## How To Use This Jupyter Book
 
