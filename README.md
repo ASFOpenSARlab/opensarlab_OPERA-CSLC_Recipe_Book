@@ -16,7 +16,6 @@ This Jupyter Book provides data recipes demonstrating data access, analyses, and
 >
 >[https://www.jpl.nasa.gov/go/opera/products/cslc-product-suite](https://www.jpl.nasa.gov/go/opera/products/cslc-product-suite)
 
-
 <br>
 
 <div class="alert alert-success" style="display: flex; align-items: center; font-family: 'Times New Roman', Times, serif; background-color: 'rgba(200,0,0,0.2)'">
@@ -43,15 +42,15 @@ This Jupyter Book provides data recipes demonstrating data access, analyses, and
 
 >1. ### Install the software environment needed to run the notebooks
 >
->    - Run the **Install Required Software with Conda** notebook ([OPERA_CSLC_jupyter_book_env.ipynb](software_environments/OPERA_CSLC_jupyter_book_env.ipynb))
+>    - Run the **Install Required Software with Conda** notebook ([OPERA_CSLC_jupyter_book_env.ipynb](OPERA_CSLC_jupyter_book_env.ipynb))
 >    - Rerun this step periodically. Updates to environment config files will not take effect unless you update or recreate your environment.
 >
 >1. ### Explore data access notebooks
->    - [Direct S3 Access](data_access/OPERA_S3_Access.ipynb)
->    - [Download Data](data_access/search_download_OPERA-CSLC-S1.ipynb)
+>    - [Direct S3 Access](OPERA_S3_Access.ipynb)
+>    - [Download Data](search_download_OPERA-CSLC-S1.ipynb)
 >
 >1. ### Create interferograms
->    - [Calculate and multilook interferograms from OPERA S1-CSLCs](insar_generation/ASF_OPERA_CSLC_2_IFG.ipynb)
+>    - [Calculate and multilook interferograms from OPERA S1-CSLCs](ASF_OPERA_CSLC_2_IFG.ipynb)
 
 ## Contact Us
 
