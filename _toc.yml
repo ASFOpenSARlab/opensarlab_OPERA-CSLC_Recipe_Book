@@ -1,0 +1,29 @@
+root: intro
+format: jb-book
+parts:
+  - caption: Introduction
+    chapters:
+      - file: README.md
+  - caption: Software Environments
+    chapters:
+      - file: OPERA_CSLC_jupyter_book_env.ipynb
+  - caption: Data Access
+    chapters:
+      - file: burst_ID_extractor.ipynb
+      - file: search_download_OPERA-CSLC-S1.ipynb
+      - file: OPERA_S3_Access.ipynb
+  - caption: Interferogram Generation
+    chapters:
+      - file: ASF_OPERA_CSLC_2_IFG.ipynb
+  - caption: Resources
+    chapters:
+    - url: https://www.jpl.nasa.gov/go/opera
+      title: OPERA Website
+    - url: https://www.jpl.nasa.gov/go/opera/products/cslc-product-suite
+      title: OPERA CSLC-S1 Product-Suite Documentation 
+    - url: https://asf.alaska.edu/datasets/daac/opera/
+      title: ASF OPERA Page
+    - url : https://github.com/opera-adt
+      title: OPERA Algorithm Development Team GitHub Org
+    - url: https://github.com/OPERA-Cal-Val/OPERA_Applications/tree/main
+      title: OPERA_Applications Repo (More OPERA data recipes)
